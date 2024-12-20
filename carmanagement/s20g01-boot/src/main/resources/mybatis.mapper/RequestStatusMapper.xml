@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.posco.carmanagement.s20g01.domain.requestStatus.mybatis.RequestStatusMapper">
+    
+    <select id="requestStatusSummary" resultType="RequestStatusSummaryResponse">
+        SELECT * 
+        FROM 
+        WHERE 
+    </select>
+    <select id="requestStatusDetails" resultType="RequestStatusDetailsResponse">
+        SELECT * 
+        FROM 
+        WHERE 
+    </select>
+</mapper>
